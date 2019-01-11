@@ -2,7 +2,7 @@
 
 Aggressor scripts for use with Cobalt Strike 3.0+
 
-**Sharphound-Aggressor**- A user menu for the SharpHound ingestor [SharpHound](https://github.com/BloodHoundAD/SharpHound)
+**Sharphound-Aggressor**- A user menu for the [SharpHound](https://github.com/BloodHoundAD/SharpHound) ingestor
 
 * Gives the option to execute SharpHound via PowerShell, Powerpick, or Execute-Assembly
 * Allows adding arguments to the commands

